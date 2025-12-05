@@ -10,7 +10,6 @@ class Customer(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, null=True)
     def __str__(self):
         return self.name
-<<<<<<< HEAD
 class Category(models.Model):
     categoryName = models.CharField(max_length=200, null=True)
     categoryImage = models.ImageField(upload_to='images/Categories/',null=True,blank=True)
@@ -44,6 +43,3 @@ class ProductDetailImage(models.Model):
     imageDate = models.DateTimeField(auto_now_add=True, null=True)
     def __str__(self):         
         return self.productDetailImageName
-=======
-
->>>>>>> 835b6df0d344b30972583bff0c9e58a729565999
