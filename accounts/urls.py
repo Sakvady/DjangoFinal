@@ -19,4 +19,6 @@ urlpatterns = [
     path('cameras/', views.cameras ,name='cameras'),
     path('smartphone/', views.smartphone ,name='smartphone'),
     path('accessories/', views.accessories ,name='accessories'),
+
+   
 ]

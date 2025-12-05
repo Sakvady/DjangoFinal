@@ -1,5 +1,5 @@
 
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 # Create your views here.
 
@@ -47,3 +47,8 @@ def smartphone(request):
 
 def accessories(request):
     return render(request,'electro/accessories.html')
+
+
+
+
+
